@@ -9,7 +9,7 @@
 // STAMPO UN PROGRAMMA CHE CONTA I NUMERI DA 1 A 100
 for (let i = 1; i <= 100; i++) {
   // PER I MULTIPLI DI 3 E 5 STAMPO "FIZZBUZZ" AL POSTO DEL NUMERO
-  if (i % 15 == 0) {
+  if (i % 3 == 0 && i % 5 == 0) {
     console.log("FizzBuzz");
     // PER I MULTIPLI DI 3 STAMPO "FIZZ" AL POSTO DEL NUMERO
   } else if (i % 3 == 0) {
